@@ -1,0 +1,99 @@
+#container{
+	border: 1px solid silver;
+	margin: auto;
+	width: 60%;
+	font-family: arial;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+#body{
+	border-top: 1px solid silver;
+	padding: 20px 20px 20px 20px;
+	font-size: 14px;
+
+}
+.btn{
+	text-decoration: none;
+}
+#btnAdd{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #ff6600;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+#btnUpdate{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #008000;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+#btnDel{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #cc0000;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+#btnBack{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #cc0052;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+#btnAdd:hover{
+	background-color: #1a8cff;
+}
+#btnUpdate:hover{
+	background-color: #ffff4d;
+}
+#btnDel:hover{
+	background-color: #669999;
+}
+#btnBack:hover{
+	background-color: #f2f2f2;
+}
+h2{
+	padding-left: 20px;
+	color: #222211;
+}
+table{
+	border: 1px solid #fff;
+	margin: auto;
+}
+table th{
+	background-color: #006600;
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+}
+table td{
+	background-color: #e6f9ff;
+	padding: 5px 5px 5px 5px;
+}
+.input{
+	width: 100%;
+}
+.input input[type=text]{
+	height: 40px;
+	width: 50%;
+	margin: auto;
+	border: 1px solid #000;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+label{
+	font-weight: bold;
+}
